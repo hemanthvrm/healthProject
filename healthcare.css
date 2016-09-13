@@ -1,0 +1,256 @@
+			body {
+					background: #f2f2f2;
+					font-family: 'OpenSans-Light';
+					font-weight: normal;
+					line-height: 1;
+					margin: 0;
+					min-width: 960px;
+					padding: 0;
+
+
+				}
+				form {
+						width: 400px;
+						margin: 0 auto;
+					}
+
+			 #header {
+						background: url(images/bg-header.jpg) no-repeat top center;
+						margin: 0;
+						padding: 0;
+					}
+			#header div {
+						margin: 0 auto;
+						overflow: hidden;
+						padding: 0;
+						width: 960px;
+					}
+			#header div span {
+						color: #fff;
+						font-family: 'Arapey';
+						font-size: 14px;
+						display: block;
+						float: left;
+						margin: 0;
+						padding: 50px 49px 0 0;
+						text-align: right;
+						width: 331px;
+					}
+			#header div .tagline {
+						padding: 50px 0 0 49px;
+						text-align: left;
+					}
+			#header div a.logo {
+						display: block;
+						float: left;
+						width: 200px;
+					}
+			#header div a.logo img {
+						border: 0;
+						display: block;
+						margin: 0;
+						padding: 0;
+					}
+			
+			#header ul {
+							background: url(images/bg-navigation.gif) repeat-x bottom left;
+							margin: 0 auto;
+							padding: 28px 0 0;
+							text-align: center;
+							width: 1004px;
+						}
+		   #header ul li {
+							display: inline-block;
+							list-style: none;
+							margin: 0;
+							padding: 0;
+						}
+		   #header ul li a {
+							color: #797979;
+							display: inline-block;
+							font-family: 'Arapey';
+							font-size: 16px;
+							font-weight: normal;
+							margin: 0;
+							padding: 0 25px 18px;
+							text-decoration: none;
+							text-transform: uppercase;
+						}
+		  #header ul li.selected a {
+
+		  					background: url(images/bg-menu.gif) repeat-x bottom left;
+							color: #ef414a;
+						}
+		  #header ul li a:hover {
+							color: #ef414a;
+
+						}
+									
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+
+			}
+			
+			
+			#main2 {
+				overflow: hidden;
+				background: url(images/transparent.png) repeat;
+			}
+						
+			#content {
+				margin-left: 230px; 
+				background: url(images/transparent.png) repeat;
+			}
+			
+			.main1 {
+				margin: 15px; 
+				margin-top: 0;
+			}
+		
+			p {
+				color: #191970;
+			 }
+	
+
+			footer {
+				
+				background: url(images/bg-footer.jpg) repeat-x top left;
+				text-align: center;
+				
+				
+
+				/* 
+				
+                position: fixed; */
+   				left:0px;
+   				position: relative;
+  			    width:100%;
+  			    height:100%;
+  			    clear: both;
+				bottom:0px;
+
+			
+
+			}
+
+			p.footer {
+						color: #FFFFFF;
+						text-align: center;
+
+					}
+			#health ul {
+				    list-style-type: none;
+				    margin: 10px;
+				    padding: 0;
+				    width: 200px;
+				    background-color: #f1f1f1;
+				    border: 1px solid #555;
+				}
+
+			#health li a {
+				    display: block;
+				    color: #000;
+				    padding: 8px 16px;
+				    text-decoration: none;
+				}
+
+			#health li {
+				    text-align: center;
+				    border-bottom: 1px solid #555;
+				}
+
+			#health li:last-child {
+				    border-bottom: none;
+				}
+
+			#health li a.active {
+				    background-color: #4CAF50;
+				    color: white;
+				}
+
+			#health li a:hover:not(.active) {
+				    background-color: #555;
+				    color: white;
+				}
+			table,tr,td	{
+							border: 0px solid black;
+							border-collapse: collapse;
+							width:500px;
+							text-align: center;
+						
+						}
+		   #bmibutton {
+					    background-color: white; 
+					    color: black; 
+					    border: 2px solid #008CBA;
+					}
+
+			#bmibutton:hover {
+					    background-color: #008CBA;
+					    color: white;
+					}
+			
+
+			form {
+                     background: white;
+                      width: 40%;
+					  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+					  font-family: lato;
+					  position: relative;
+					  color: #333;
+					  border-radius: 10px;
+				}
+			form header {
+			  background: #0E365A;
+			  padding: 30px 20px;
+			  color: white;
+			  font-size: 1.2em;
+			  font-weight: 600;
+			  border-radius: 10px 10px 0 0;
+			}
+			form label {
+			  margin-left: 20px;
+			  display: inline-block;
+			  margin-top: 30px;
+			  margin-bottom: 5px;
+			  position: relative;
+			}
+			form label span {
+			  color: #FF3838;
+			  font-size: 2em;
+			  position: absolute;
+			  left: 2.3em;
+			  top: -10px;
+			}
+			form input {
+			  display: block;
+			  width: 78%;
+			  margin-left: 20px;
+			  padding: 5px 20px;
+			  font-size: 1em;
+			  border-radius: 3px;
+			  outline: none;
+			  border: 1px solid #ccc;
+			}
+			
+			#checkvalid {
+			  position: relative;
+			  margin-top: 30px;
+			  margin-bottom: 30px;
+			  left: 50%;
+			  transform: translate(-50%, 0);
+			  font-family: inherit;
+			  color: white;
+			  background: #0E365A;
+			  outline: none;
+			  border: none;
+			  padding: 5px 15px;
+			  font-size: 1.3em;
+			  font-weight: 400;
+			  cursor: pointer;
+			  transition: all 0.15s ease-in-out;
+			}
+

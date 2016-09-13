@@ -1,0 +1,31 @@
+Team -
+
+Hemanth varma Mudduluru
+Srinidhi Vadigepalli
+Ahmed shaik
+
+
+
+Home page - healthcare.html
+
+Admin Login 
+username - admin
+password - password
+
+
+Login page
+
+username - robertr
+password - password
+
+username - donalde
+password - password
+
+username - barryd
+password - password
+
+
+
+
+
+													
